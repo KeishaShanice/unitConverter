@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(232, 228, 228);
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    color: #5A537B;
+    font-size: 24px;
+}
+
+.border {
+    border-left: 1px solid #B295FF;
+    padding-left: 5px;
+}
+
+.container{
+    width: 550px;
+    height: 730px;
+    margin-top: 10px;
+    justify-content: center;
+    background-color: #F4F4F4;
+}
+
+
+/* dark mode button*/
+.darkButtonContainer{
+    background-color: #6943FF;
+}
+
+#darkButton-el{
+    background-color: #6943FF;
+    align-items: start;
+    border: none;
+    font-style: italic;
+    font-size: 17px;
+}
+
+#darkButton-el:hover{
+    color: whitesmoke;
+}
+
+
+/* hero */
+.hero {
+    background-color: #6943FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 550px;
+    height: 300px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#inputAmount-el {
+    display: block;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    background-color: #6943FF;
+    color: #FFFFFF;
+    width: 125px;
+    height: 100px;
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero button:hover{
+    color:#6943FF;
+}
+
+
+/* conversions */
+.conversionsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 550px;
+    height: 400px;
+    text-align: center;
+}
+
+.conversions{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #e4e2e2;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color:  #353535;
+}    
+
+
+/* toggle dark mode */
+.dark-mode {
+    background-color: #1F2937;
+    color: #FFFFFF;
+}
+
+.almostDark-mode {
+    background-color: #273549;
+    color: #B295FF;
+    border: none;
+}
+
+.darkTitle {
+    color: #B295FF;
+}
+
+.darkWords {
+    color: #FFFFFF;
+}
